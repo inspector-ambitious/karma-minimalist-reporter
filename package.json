@@ -1,0 +1,26 @@
+{
+    "name": "karma-minimalist-reporter",
+    "version": "0.1.0",
+    "description": "A Karma minimalist reporter.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/yhwh/karma-minimalist-reporter.git"
+    },
+    "keywords": [
+        "karma-plugin",
+        "karma-reporter",
+        "minimalist"
+    ],
+    "author": "Nicolas Ferrero <ferrero.nicolas@gmail.com>",
+
+    "peerDependencies": {
+        "karma": ">=0.9"
+    },
+    "license": "MIT",
+    "contributors": []
+}
+
