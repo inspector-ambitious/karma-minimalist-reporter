@@ -25,6 +25,20 @@ var MinimalistReporter = function(baseReporterDecorator, color) {
         this.TOTAL_FAILED = 'TOTAL: %d FAILED, %d SUCCESS'.red + '\n';
     }
 
+    this.onBrowserComplete = function(browser) {
+        this.write(this.renderBrowser(browser) + '\n');
+    };
+
+    this.onRunComplete = function(browsers, results) {
+        if (browsers.length > 1 && !results.disconnected && !results.error) {
+            if (!results.failed) {
+                this.write(this.TOTAL_SUCCESS, results.success);
+            } else {
+                this.write(this.TOTAL_FAILED, results.failed, results.success);
+            }
+        }
+    };
+
 };
 
 MinimalistReporter.$inject = ['baseReporterDecorator', 'config.color'];
