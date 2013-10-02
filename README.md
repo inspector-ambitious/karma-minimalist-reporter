@@ -9,7 +9,7 @@ The easiest way is to keep `karma-minimalist-reporter` as a devDependency in you
 {
   "devDependencies": {
     "karma": "~0.10",
-    "karma-minimalist-reporter": "~0.1"
+    "karma-minimalist-reporter": "~0.2"
   }
 }
 ```
