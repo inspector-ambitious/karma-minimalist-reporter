@@ -8,7 +8,7 @@ The easiest way is to keep `karma-minimalist-reporter` as a devDependency in you
 ```json
 {
   "devDependencies": {
-    "karma": "~0.10",
+    "karma": "~0.12",
     "karma-minimalist-reporter": "~0.2"
   }
 }
