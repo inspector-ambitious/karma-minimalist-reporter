@@ -18,7 +18,7 @@
     "author": "Nicolas Ferrero <ferrero.nicolas@gmail.com>",
 
     "peerDependencies": {
-        "karma": ">=0.9"
+        "karma": ">=0.12"
     },
     "license": "MIT",
     "contributors": []
