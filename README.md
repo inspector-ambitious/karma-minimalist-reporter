@@ -19,6 +19,11 @@ You can simple do it by:
 npm install karma-minimalist-reporter --save-dev
 ```
 
+The output will be just the totals:
+```
+PhantomJS 1.9.7 (Mac OS X): Executed 704 of 704 SUCCESS (7.966 secs / 0.087 secs)
+```
+
 ## Configuration
 ```js
 // karma.conf.js
