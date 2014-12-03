@@ -1,4 +1,4 @@
-var BaseColorReporter = require('../karma/lib/reporters/BaseColor');
+var BaseColorReporter = require('../karma/lib/reporters/base_color');
 
 var MinimalistReporter = function(baseReporterDecorator, colors) {
 
